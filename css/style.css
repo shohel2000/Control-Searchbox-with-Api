@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.input-form{
+    margin: 50px 0px;
+}
+.searchBtn{
+    margin-left: 10px;
+    background-color: tomato;
+    color: white;
+    transition: .4s;
+}
+.searchBtn:hover{
+    color: white;
+    background-color: green;
+}
+.meal-image{
+    width: 100%;
+}
+.details-image{
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.meal-title{
+    text-align: center;
+    margin-top: 10px;
+}
+.meal-area{
+    background-color: wheat;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px rgb(0, 0, 0);
+}
+.details-title{
+    margin: 20px 0;
+}
+.show-details{
+    margin-left: 30%;
+}
+#ingredient-list{
+    text-align: justify;
+}
+#ingredient-title{
+    color: tomato;
+    margin: 10px 0;
+}
+ul{
+    list-style: none;
+}
+.details-area{
+    display: none;
+    margin-bottom: 15px;
+    background-color: #F8F7F5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
+.alertBox{
+    height: 30px;
+    margin-bottom: 10px;
+}
